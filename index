@@ -1,0 +1,63 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+ <style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.Hedline {
+  background-color: lightblue;
+  float: left;
+  width: 100%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+    <div style="background-color:#f1f1f1;padding:15px;">
+        <h1>Databse Systems</h1>
+    </div>
+    <div style="overflow:auto">
+        <div class="menu">
+            <div class="menuitem"><a href="page1.html">Properties</a></div>
+            <div class="menuitem"><a href="page2.html">Advantages</a></div>
+            <div class="menuitem"><a href="page3.html">Components</a></div>
+            <div class="menuitem"><a href="page4.html">Database Vs DBMS</a></div>
+        </div>
+        <div class="main">
+            <nav class="Hedline">
+                <h2>What is a database ?</h2>
+                <p>A <b>database</b> is a collection of related data which represents some aspect of the real world.</p>
+            </nav>
+            <img src="Resources/databaseSystems.jpg" style="width:100%">
+        </div>
+
+    </div>
+
+
+    <div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;">
+        HTML Project BY <b>Nader Abdelhamid Awwad Zain</b> 
+    </div>
+</body>
+</html>
